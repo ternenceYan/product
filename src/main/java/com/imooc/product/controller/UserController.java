@@ -18,6 +18,7 @@ public class UserController {
     private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private UserService userService;
+
     @RequestMapping("getUserById/{userid}")
     public List<SysUser> getUserById(@PathVariable String userid) throws Exception {
 

@@ -1,6 +1,7 @@
 package com.imooc.product.mapper;
 
 import com.imooc.product.pojo.OrderMaster;
+
 import java.util.List;
 
 public interface OrderMasterMapper {

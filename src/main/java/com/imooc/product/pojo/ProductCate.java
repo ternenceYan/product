@@ -39,7 +39,7 @@ public class ProductCate {
      *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
-    @JsonFormat(pattern = "yyy-MM-dd",locale = "zh")
+    @JsonFormat(pattern = "yyy-MM-dd", locale = "zh")
     private Date createtime;
 
     /**
@@ -48,7 +48,7 @@ public class ProductCate {
      *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
-    @JsonFormat(pattern = "yyy-MM-dd",locale = "zh")
+    @JsonFormat(pattern = "yyy-MM-dd", locale = "zh")
     private Date updatetime;
 
     /**
@@ -56,7 +56,6 @@ public class ProductCate {
      * This method returns the value of the database column product_cate.categoryid
      *
      * @return the value of product_cate.categoryid
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public Integer getCategoryid() {
@@ -68,7 +67,6 @@ public class ProductCate {
      * This method sets the value of the database column product_cate.categoryid
      *
      * @param categoryid the value for product_cate.categoryid
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public void setCategoryid(Integer categoryid) {
@@ -80,7 +78,6 @@ public class ProductCate {
      * This method returns the value of the database column product_cate.categoryname
      *
      * @return the value of product_cate.categoryname
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public String getCategoryname() {
@@ -92,7 +89,6 @@ public class ProductCate {
      * This method sets the value of the database column product_cate.categoryname
      *
      * @param categoryname the value for product_cate.categoryname
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public void setCategoryname(String categoryname) {
@@ -104,7 +100,6 @@ public class ProductCate {
      * This method returns the value of the database column product_cate.categorytype
      *
      * @return the value of product_cate.categorytype
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public Integer getCategorytype() {
@@ -116,7 +111,6 @@ public class ProductCate {
      * This method sets the value of the database column product_cate.categorytype
      *
      * @param categorytype the value for product_cate.categorytype
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public void setCategorytype(Integer categorytype) {
@@ -128,7 +122,6 @@ public class ProductCate {
      * This method returns the value of the database column product_cate.createtime
      *
      * @return the value of product_cate.createtime
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public Date getCreatetime() {
@@ -140,7 +133,6 @@ public class ProductCate {
      * This method sets the value of the database column product_cate.createtime
      *
      * @param createtime the value for product_cate.createtime
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public void setCreatetime(Date createtime) {
@@ -152,7 +144,6 @@ public class ProductCate {
      * This method returns the value of the database column product_cate.updatetime
      *
      * @return the value of product_cate.updatetime
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public Date getUpdatetime() {
@@ -164,7 +155,6 @@ public class ProductCate {
      * This method sets the value of the database column product_cate.updatetime
      *
      * @param updatetime the value for product_cate.updatetime
-     *
      * @mbggenerated Wed Jul 25 17:30:21 CST 2018
      */
     public void setUpdatetime(Date updatetime) {

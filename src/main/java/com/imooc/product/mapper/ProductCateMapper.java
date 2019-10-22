@@ -10,9 +10,10 @@ public interface ProductCateMapper extends MyMapper<ProductCate> {
 
     /**
      * 根据商品的类别编号查询类别信息
+     *
      * @param categoryTypeList
      * @return
      * @throws Exception
      */
-    List<ProductCate> findCategoryByTypeIn (List<Integer> categoryTypeList) throws Exception;
+    List<ProductCate> findCategoryByTypeIn(List<Integer> categoryTypeList) throws Exception;
 }

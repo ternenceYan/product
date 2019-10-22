@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public List<SysUser> getUserById(String userid) throws Exception{
+    public List<SysUser> getUserById(String userid) throws Exception {
 
         List<SysUser> userList = sysUserMapper.getSysUserById(userid);
         return userList;

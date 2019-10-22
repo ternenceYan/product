@@ -16,6 +16,7 @@ public class ProductInfoServiceImpl implements ProductInfoService {
     private Logger logger = LoggerFactory.getLogger(getClass());
     @Autowired
     private ProductInfoMapper productInfoMapper;
+
     @Override
     public List<ProductInfo> findByProductStatus(Integer status) throws Exception {
         List<ProductInfo> productInfos = productInfoMapper.findByProductStatus(status);

@@ -89,7 +89,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.orderid
      *
      * @return the value of order_master.orderid
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public String getOrderid() {
@@ -101,7 +100,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.orderid
      *
      * @param orderid the value for order_master.orderid
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setOrderid(String orderid) {
@@ -113,7 +111,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.buyername
      *
      * @return the value of order_master.buyername
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public String getBuyername() {
@@ -125,7 +122,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.buyername
      *
      * @param buyername the value for order_master.buyername
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setBuyername(String buyername) {
@@ -137,7 +133,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.buyerphone
      *
      * @return the value of order_master.buyerphone
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public String getBuyerphone() {
@@ -149,7 +144,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.buyerphone
      *
      * @param buyerphone the value for order_master.buyerphone
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setBuyerphone(String buyerphone) {
@@ -161,7 +155,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.buyeraddress
      *
      * @return the value of order_master.buyeraddress
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public String getBuyeraddress() {
@@ -173,7 +166,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.buyeraddress
      *
      * @param buyeraddress the value for order_master.buyeraddress
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setBuyeraddress(String buyeraddress) {
@@ -185,7 +177,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.buyeropenid
      *
      * @return the value of order_master.buyeropenid
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public String getBuyeropenid() {
@@ -197,7 +188,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.buyeropenid
      *
      * @param buyeropenid the value for order_master.buyeropenid
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setBuyeropenid(String buyeropenid) {
@@ -209,7 +199,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.orderamount
      *
      * @return the value of order_master.orderamount
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public BigDecimal getOrderamount() {
@@ -221,7 +210,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.orderamount
      *
      * @param orderamount the value for order_master.orderamount
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setOrderamount(BigDecimal orderamount) {
@@ -233,7 +221,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.orderstatus
      *
      * @return the value of order_master.orderstatus
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public Byte getOrderstatus() {
@@ -245,7 +232,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.orderstatus
      *
      * @param orderstatus the value for order_master.orderstatus
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setOrderstatus(Byte orderstatus) {
@@ -257,7 +243,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.paystatus
      *
      * @return the value of order_master.paystatus
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public Byte getPaystatus() {
@@ -269,7 +254,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.paystatus
      *
      * @param paystatus the value for order_master.paystatus
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setPaystatus(Byte paystatus) {
@@ -281,7 +265,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.createtime
      *
      * @return the value of order_master.createtime
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public Date getCreatetime() {
@@ -293,7 +276,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.createtime
      *
      * @param createtime the value for order_master.createtime
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setCreatetime(Date createtime) {
@@ -305,7 +287,6 @@ public class OrderMaster {
      * This method returns the value of the database column order_master.updatetime
      *
      * @return the value of order_master.updatetime
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public Date getUpdatetime() {
@@ -317,7 +298,6 @@ public class OrderMaster {
      * This method sets the value of the database column order_master.updatetime
      *
      * @param updatetime the value for order_master.updatetime
-     *
      * @mbggenerated Tue Jul 31 23:28:03 CST 2018
      */
     public void setUpdatetime(Date updatetime) {

@@ -19,12 +19,13 @@ public class ProductCateServiceImplTest {
 
     @Autowired
     private ProductCateMapper productCateMapper;
+
     @Test
-    public void findCategoryByTypeIn() throws Exception{
+    public void findCategoryByTypeIn() throws Exception {
         List<Integer> list = new ArrayList<>();
         list.add(0);
         list.add(1);
         List<ProductCate> productCateList = productCateMapper.findCategoryByTypeIn(list);
-        Assert.assertTrue(productCateList.size()>0);
+        Assert.assertTrue(productCateList.size() > 0);
     }
 }

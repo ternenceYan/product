@@ -37,9 +37,9 @@ public class ProductController {
     private ProductCateService productCateService;
 
     @RequestMapping("findProduct")
-    public ResultData<ProductVo> list () throws Exception{
+    public ResultData<ProductVo> list() throws Exception {
         long startTime = System.currentTimeMillis();
-        Integer status = 0 ;
+        Integer status = 0;
         List<ProductInfo> productInfos = productInfoService.findByProductStatus(status);
         List<Integer> categoryTypeList = productInfos.stream().map(ProductInfo::getCategorytype).
                 collect(Collectors.toList());
@@ -70,31 +70,31 @@ public class ProductController {
         resultData.setData(productVoList);
         resultData.setCode(0);
         resultData.setMsg("ok");
-        System.out.println(System.currentTimeMillis()-startTime+"=============================");
+        System.out.println(System.currentTimeMillis() - startTime + "=============================");
         return resultData;
     }
 
     @RequestMapping("getProductCategoryByName")
-    public List<ProductCate> getProductCategoryByName (@RequestParam String name) throws Exception {
+    public List<ProductCate> getProductCategoryByName(@RequestParam String name) throws Exception {
         List<ProductCate> list = productCateService.geProductCategoryByName(name);
-        logger.info("根据name获取产品类目..................NAME:{}",name);
+        logger.info("根据name获取产品类目..................NAME:{}", name);
         return list;
     }
 
     @RequestMapping("findCategoryByTypeIn")
-    public List<ProductCate> findCategoryByTypeIn () throws Exception {
+    public List<ProductCate> findCategoryByTypeIn() throws Exception {
         List<Integer> list = new ArrayList<>();
         list.add(1);
         List<ProductCate> productCateList = productCateService.findCategoryByTypeIn(list);
-        return  productCateList;
+        return productCateList;
     }
 
     //获取商品列表，给订单服务用的
     @PostMapping("/listForOrder")
-    public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList)throws Exception {
+    public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList) throws Exception {
         logger.info("开始准备查询商品=========================");
         List<ProductInfo> productInfoList = productInfoService.findByProductId(productIdList);
-        logger.info("商品：{}",productInfoList);
+        logger.info("商品：{}", productInfoList);
         return productInfoList;
     }
 }

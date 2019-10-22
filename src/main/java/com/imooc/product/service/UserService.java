@@ -5,5 +5,5 @@ import com.imooc.product.pojo.SysUser;
 import java.util.List;
 
 public interface UserService {
-     List<SysUser> getUserById(String userid) throws Exception;
+    List<SysUser> getUserById(String userid) throws Exception;
 }

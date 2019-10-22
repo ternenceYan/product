@@ -81,7 +81,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.detailid
      *
      * @return the value of order_detail.detailid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public String getDetailid() {
@@ -93,7 +92,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.detailid
      *
      * @param detailid the value for order_detail.detailid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setDetailid(String detailid) {
@@ -105,7 +103,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.orderid
      *
      * @return the value of order_detail.orderid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public String getOrderid() {
@@ -117,7 +114,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.orderid
      *
      * @param orderid the value for order_detail.orderid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setOrderid(String orderid) {
@@ -129,7 +125,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.productid
      *
      * @return the value of order_detail.productid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public String getProductid() {
@@ -141,7 +136,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.productid
      *
      * @param productid the value for order_detail.productid
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setProductid(String productid) {
@@ -153,7 +147,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.productname
      *
      * @return the value of order_detail.productname
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public String getProductname() {
@@ -165,7 +158,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.productname
      *
      * @param productname the value for order_detail.productname
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setProductname(String productname) {
@@ -177,7 +169,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.productprice
      *
      * @return the value of order_detail.productprice
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public BigDecimal getProductprice() {
@@ -189,7 +180,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.productprice
      *
      * @param productprice the value for order_detail.productprice
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setProductprice(BigDecimal productprice) {
@@ -201,7 +191,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.productquantity
      *
      * @return the value of order_detail.productquantity
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public Integer getProductquantity() {
@@ -213,7 +202,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.productquantity
      *
      * @param productquantity the value for order_detail.productquantity
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setProductquantity(Integer productquantity) {
@@ -225,7 +213,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.producticon
      *
      * @return the value of order_detail.producticon
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public String getProducticon() {
@@ -237,7 +224,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.producticon
      *
      * @param producticon the value for order_detail.producticon
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setProducticon(String producticon) {
@@ -249,7 +235,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.createtime
      *
      * @return the value of order_detail.createtime
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public Date getCreatetime() {
@@ -261,7 +246,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.createtime
      *
      * @param createtime the value for order_detail.createtime
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setCreatetime(Date createtime) {
@@ -273,7 +257,6 @@ public class OrderDetail {
      * This method returns the value of the database column order_detail.updatetime
      *
      * @return the value of order_detail.updatetime
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public Date getUpdatetime() {
@@ -285,7 +268,6 @@ public class OrderDetail {
      * This method sets the value of the database column order_detail.updatetime
      *
      * @param updatetime the value for order_detail.updatetime
-     *
      * @mbggenerated Tue Jul 31 00:35:23 CST 2018
      */
     public void setUpdatetime(Date updatetime) {

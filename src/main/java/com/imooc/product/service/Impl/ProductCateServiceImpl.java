@@ -12,6 +12,7 @@ import java.util.List;
 public class ProductCateServiceImpl implements ProductCateService {
     @Autowired
     private ProductCateMapper productCateMapper;
+
     @Override
     public List<ProductCate> geProductCategoryByName(String name) throws Exception {
         List<ProductCate> list = productCateMapper.geProductCategoryByName(name);
